@@ -33,8 +33,8 @@ export default function PetListCard({ data }: Props) {
   const { pets, element } = data;
 
   return (
-    <HTML>
-      <div className={classNames('bg-list-bg text-list-cream rounded-card overflow-hidden')} style={{ width: `${TOTAL_W}px` }}>
+    <HTML style={{ width: `${TOTAL_W}px` }}>
+      <div className={classNames('bg-list-bg text-list-cream rounded-card overflow-hidden')}>
         {/* 顶部标题区 */}
         <div className='pt-6 px-7 pb-4 text-center'>
           <div className='inline-block bg-list-bg border-2 border-list-border rounded-lg px-4 py-1 text-[13px] font-bold text-list-cream tracking-widest mb-2.5'>
@@ -58,7 +58,7 @@ export default function PetListCard({ data }: Props) {
             return (
               <div key={pet.id} className='bg-list-card rounded-xl overflow-hidden shadow-card-md border-2 border-list-tan' style={{ width: `${CARD_W}px` }}>
                 {/* 头像区域 */}
-                <div className='p-3 flex justify-center items-center' style={{ background: `linear-gradient(135deg, #D4B896, #F0E6D0)` }}>
+                <div className='p-3 flex justify-center items-center' style={{ background: 'linear-gradient(135deg, #D4B896, #F0E6D0)' }}>
                   <div className='rounded-xl p-[3px] shadow-card-sm' style={{ background: bg }}>
                     <img className='w-[100px] h-[100px] rounded-[10px] object-cover bg-white block' src={pet.avatar} alt={pet.name} />
                   </div>
@@ -82,7 +82,7 @@ export default function PetListCard({ data }: Props) {
 
         {/* 底部引用区 */}
         <div className='mx-7 mb-6 border-2 border-dashed border-list-dotted rounded-xl py-3.5 px-5 text-center'>
-          <span className='text-[15px] text-list-dim italic tracking-wide'>"小洛克，快来收集你的精灵伙伴吧！"</span>
+          <span className='text-[15px] text-list-dim italic tracking-wide'>小洛克，快来收集你的精灵伙伴吧！</span>
         </div>
 
         {/* 页脚 */}

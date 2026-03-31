@@ -50,8 +50,8 @@ function Star({ size, top, left, right, opacity = 1 }: { size: number; top?: str
 
 export default function RocoHelp() {
   return (
-    <HTML>
-      <div className='bg-help-border p-2.5 box-border' style={{ width: `${CARD_W}px` }}>
+    <HTML style={{ width: `${CARD_W}px` }}>
+      <div className='bg-help-border p-2.5 box-border'>
         {/* 内卡片 */}
         <div className='bg-help-gold rounded-[14px] overflow-hidden'>
           {/* 标题区 */}
