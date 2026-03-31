@@ -13,18 +13,16 @@
 ```sh
 https://github.com/xiuxianjs/alemonjs-roco.git
 ```
-
-若访问受限，可使用如下加速地址
-
-```sh
-https://ghfast.top/https://github.com/xiuxianjs/alemonjs-roco.git
-```
-
+ 
 - branch
 
 ```sh
 release
 ```
+
+### 起步
+
+`#roco帮助`
 
 ## 免责声明
 
