@@ -1,0 +1,54 @@
+import { routeRules } from '@src/constants/roco';
+import { defineRouter, lazy } from 'alemonjs';
+
+/**
+ * 洛克王国宠物图鉴机器人
+ *
+ * #洛克帮助 / #rk帮助
+ * #洛克图鉴 迪莫
+ * #洛克宠物 / #洛克宠物 火
+ * #洛克技能 闪光冲击 *
+ *
+ * --- 预计新增一下功能
+ * --- 来源 bilibili wiki
+ * #roco属性克制
+ * #roco阵容搭配
+ * #roco任务一览
+ * #roco副本挑战
+ * #roco精灵图鉴
+ * #roco物品图鉴
+ * #roco技能图鉴
+ * #roco活动
+ * #roco攻略
+ * #roco阵容
+ * #roco升级经验表
+ */
+
+export default defineRouter([
+  {
+    selects: ['private.message.create', 'message.create', 'interaction.create', 'private.interaction.create'],
+    handler: lazy(() => import('@src/response/mw')),
+    children: [
+      {
+        regular: routeRules.help,
+        handler: lazy(() => import('@src/response/help'))
+      },
+      {
+        regular: routeRules.petDetail,
+        handler: lazy(() => import('@src/response/petDetail'))
+      },
+      {
+        regular: routeRules.petList,
+        handler: lazy(() => import('@src/response/petList'))
+      },
+      {
+        regular: routeRules.skillSearch,
+        handler: lazy(() => import('@src/response/skillSearch'))
+      },
+      {
+        regular: routeRules.activeDate,
+        handler: lazy(() => import('@src/response/active'))
+      }
+    ]
+  }
+]);

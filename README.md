@@ -1,0 +1,35 @@
+# 阿柠檬-洛克王国世界
+
+该扩展推荐使用`alemongo`或`alemondesk`作为生产环境
+
+`alemongo` https://github.com/lemonade-lab/alemongo
+
+`alemondesk` https://github.com/lemonade-lab/alemondesk
+
+### alemongo/alemondesk
+
+- 地址
+
+```sh
+https://github.com/xiuxianjs/alemonjs-roco.git
+```
+
+若访问受限，可使用如下加速地址
+
+```sh
+https://ghfast.top/https://github.com/xiuxianjs/alemonjs-roco.git
+```
+
+- branch
+
+```sh
+release
+```
+
+## 免责声明
+
+- 勿用于以盈利为目的的场景
+
+- 代码开放，无需征得特殊同意，可任意使用。能备注来源最好，但不强求
+
+- 图片与其他素材均来自于网络，仅供交流学习使用，如有侵权请联系，会立即删除
