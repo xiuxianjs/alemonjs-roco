@@ -1,12 +1,12 @@
 import { searchSkill } from '@src/data/index';
 import { createEvent, EventsEnum, Format, useMessage } from 'alemonjs';
 
-export default async (e: EventsEnum) => {
+export default (e: EventsEnum) => {
   const event = createEvent({
     event: e,
     selects: ['private.message.create', 'message.create', 'interaction.create', 'private.interaction.create']
   });
-  const [message] = useMessage(event);
+  const [message] = useMessage();
   const text = event.MessageText?.trim() ?? '';
 
   const format = Format.create();

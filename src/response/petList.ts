@@ -9,7 +9,7 @@ export default async (e: EventsEnum) => {
     event: e,
     selects: ['private.message.create', 'message.create', 'interaction.create', 'private.interaction.create']
   });
-  const [message] = useMessage(event);
+  const [message] = useMessage();
   const text = event.MessageText?.trim() ?? '';
 
   const format = Format.create();

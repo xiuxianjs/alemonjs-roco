@@ -1,14 +1,9 @@
 import RocoHelp from '@src/img/views/Help';
-import { createEvent, EventsEnum, Format, useMessage } from 'alemonjs';
+import { Format, useMessage } from 'alemonjs';
 import { renderComponentIsHtmlToBuffer } from 'jsxp';
 
-export default async (e: EventsEnum) => {
-  const event = createEvent({
-    event: e,
-    selects: ['private.message.create', 'message.create', 'interaction.create', 'private.interaction.create']
-  });
-
-  const [message] = useMessage(event);
+export default async () => {
+  const [message] = useMessage();
 
   const img = await renderComponentIsHtmlToBuffer(RocoHelp, {});
 
