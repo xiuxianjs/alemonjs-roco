@@ -16,7 +16,7 @@ export default async (e: EventsEnum) => {
   const md = Format.createMarkdown();
 
   // 提取属性过滤参数
-  const elementName = text.replace(/^[!！/#＃](?:洛克|rk|lk)(?:宠物|宠物列表|精灵|cwlb)\s*/, '').trim();
+  const elementName = text.replace(/^[!！/#＃](?:roco|洛克)(?:宠物|宠物列表|精灵|cwlb)\s*/, '').trim();
 
   let pets = allPets;
   let filterLabel = '全部';

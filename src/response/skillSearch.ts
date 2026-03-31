@@ -13,7 +13,7 @@ export default async (e: EventsEnum) => {
   const md = Format.createMarkdown();
 
   // 提取技能名
-  const skillName = text.replace(/^[!！/#＃](?:洛克|rk|lk)(?:技能|jn)\s*/, '').trim();
+  const skillName = text.replace(/^[!！/#＃](?:roco|洛克)(?:技能|jn)\s*/, '').trim();
 
   if (!skillName) {
     md.addText('[洛克王国] 请输入技能名，例如: #洛克技能 闪光冲击');

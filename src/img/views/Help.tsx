@@ -18,17 +18,17 @@ const HELP_DATA: HelpCategory[] = [
   {
     title: '宠物图鉴',
     items: [
-      { name: '查看宠物', desc: '查看宠物详细信息', eg: '#roco图鉴 迪莫' },
-      { name: '宠物列表', desc: '查看所有宠物', eg: '#roco宠物' },
-      { name: '属性筛选', desc: '按属性筛选宠物', eg: '#roco宠物 火' },
-      { name: '技能搜索', desc: '搜索技能信息', eg: '#roco技能 闪光冲击' },
-      { name: '活动日历', desc: '查看活动日历', eg: '#roco活动日历' }
+      { name: '查看宠物', desc: '图鉴 / 查询 / cw + 宠物名', eg: '#roco图鉴 迪莫' },
+      { name: '宠物列表', desc: '宠物 / 精灵 / cwlb（可选属性）', eg: '#roco宠物' },
+      { name: '属性筛选', desc: '按属性筛选宠物列表', eg: '#roco宠物 火' },
+      { name: '技能搜索', desc: '技能 / jn + 技能名', eg: '#roco技能 闪光冲击' },
+      { name: '活动日历', desc: '活动 / 日历 / hdrl', eg: '#roco活动' }
     ]
   },
   {
     title: '快捷指令',
     items: [
-      { name: '帮助', desc: '查看帮助列表', eg: '#roco帮助' },
+      { name: '帮助', desc: '帮助 / help', eg: '#roco帮助' },
       { name: '前缀', desc: '支持多种前缀', eg: '#roco / #洛克' }
     ]
   }

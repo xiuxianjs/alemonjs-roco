@@ -15,7 +15,7 @@ export default async (e: EventsEnum) => {
   const md = Format.createMarkdown();
 
   // 提取宠物名
-  const petName = text.replace(/^[!！/#＃](?:洛克|rk|lk)(?:图鉴|查询|cw)\s*/, '').trim();
+  const petName = text.replace(/^[!！/#＃](?:roco|洛克)(?:图鉴|查询|cw)\s*/, '').trim();
 
   if (!petName) {
     md.addText('[洛克王国] 请输入宠物名，例如: #洛克图鉴 迪莫');
