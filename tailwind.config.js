@@ -45,6 +45,21 @@ export default {
           star: '#E8B830',
           border: '#F5C842'
         },
+        /* Announcement 公告暖色卷轴 */
+        ann: {
+          bg: '#F0E4D0',
+          card: '#F5EDE0',
+          'card-hover': '#EDE3D0',
+          title: '#3A2E22',
+          date: '#9E8E7A',
+          tab: '#D4B896',
+          'tab-active': '#E8A820',
+          'tab-text': '#6B5D4F',
+          'tab-text-active': '#FFFFFF',
+          border: 'rgba(180,160,130,0.35)',
+          footer: '#6B5D4F',
+          divider: 'rgba(180,160,130,0.25)'
+        },
         /* CardBase 暗色面板 */
         base: {
           bg: '#1a1a2e',

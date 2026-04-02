@@ -1,4 +1,6 @@
 import ActiveDate from '@src/img/views/ActiveDate';
+import AnnouncementCard from '@src/img/views/AnnouncementCard';
+import AnnouncementDetailCard from '@src/img/views/AnnouncementDetailCard';
 import RocoHelp from '@src/img/views/Help';
 import PetDetailCard from '@src/img/views/PetDetailCard';
 import PetListCard from '@src/img/views/PetListCard';
@@ -52,6 +54,42 @@ export default defineConfig({
     },
     '/active-date': {
       component: <ActiveDate />
+    },
+    '/announcement': {
+      component: (
+        <AnnouncementCard
+          data={{
+            announcements: [
+              { id: 1, title: '违规行为处罚公告（2026年3月26日~3月27日）', date: '2026-03-28 19:00:00', category: '公告' },
+              { id: 2, title: '3月28日更新公告', date: '2026-03-28 10:00:00', category: '公告' },
+              { id: 3, title: '洛克王国世界S1赛季开启！全新精灵等你来收集', date: '2026-03-27 18:00:00', category: '资讯' },
+              { id: 4, title: '精灵对战排位赛第一赛季规则说明', date: '2026-03-26 15:00:00', category: '活动' },
+              { id: 5, title: '6000万预约达成！S1赛季8只新精灵生态首曝！', date: '2026-03-25 12:00:00', category: '最新' },
+              { id: 6, title: '洛克王国世界公测福利一览', date: '2026-03-24 10:00:00', category: '活动' }
+            ],
+            activeTab: '最新',
+            page: 1,
+            totalPages: 4
+          }}
+        />
+      )
+    },
+    '/announcement-detail': {
+      component: (
+        <AnnouncementDetailCard
+          data={{
+            detail: {
+              id: 1,
+              title: '违规行为处罚公告（2026年3月26日~3月27日）',
+              date: '2026-03-28 19:00:00',
+              author: '洛克王国世界',
+              content: '亲爱的小洛克：\n\n为打造公平、健康的游戏环境，保障各位小洛克的账号资产安全与游戏公平体验，自开服以来，「王国安全部」持续对使用外挂、脚本或其他第三方辅助工具等行为进行监测和打击。\n\n我们再次提醒：请务必保护个人账号与隐私安全，请勿共享账号、远离扫码代练、警惕非官方充值与虚假福利信息。\n\n在3月26日~3月27日期间，我们共对2579名违规账号做出处罚，包括扣除信用分、封禁账号、追缴非法收益等。其中，957名外挂、脚本使用者及黑产工作室账号被处以10年封禁，且不接受任何解封申请。',
+              coverUrl: 'https://static.gametalk.qq.com/image/467/1774694411_ec4b49435c17f0672b19e0aba9fd231f.jpg',
+              tagIds: '135111,135110'
+            }
+          }}
+        />
+      )
     }
   }
 });

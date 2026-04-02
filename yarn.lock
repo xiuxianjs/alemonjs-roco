@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@alemonjs/bubble@^2.1.8":
-  version "2.1.8"
-  resolved "https://registry.npmmirror.com/@alemonjs/bubble/-/bubble-2.1.8.tgz#bfec6d7f938cf5cff324dac9418ed122a5198c62"
-  integrity sha512-8+vd6XwFQSuOPFDeEMTTScalrQuqOZldcOc8HKCyZ3oVJFNOYKg8zbdqEGTTJ5ZLBZslexYP5NbDoUmt66TpFg==
+"@alemonjs/bubble@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.npmmirror.com/@alemonjs/bubble/-/bubble-2.1.9.tgz#2a10aab918634e1a2c814b194dc6ff9397d79fc7"
+  integrity sha512-nuR6Wa+WUUv4WmqM2J7fIVXFQkWAOvmJeeh9HM9PvnvYpBqFVrNPaLfUIJyt9hC26xT9433dyqKoXAtlMN4ogw==
   dependencies:
     http-proxy-agent "^7.0.2"
     https-proxy-agent "^7"
@@ -20,31 +20,31 @@
     mysql2 "^3.6.2"
     sequelize "^6.33.0"
 
-"@alemonjs/discord@^2.1.11":
-  version "2.1.11"
-  resolved "https://registry.npmmirror.com/@alemonjs/discord/-/discord-2.1.11.tgz#dd1f06693883f954e45762677ce10b2f45226b18"
-  integrity sha512-/eseLERuL7w76ros74kGTEdihQ0pTyXo+DVWgq6SAS4rAk+DpBD7kM8cg7c3pRx6Rfs2rLO5AB6nTnhNg+rZgQ==
+"@alemonjs/discord@^2.1.12":
+  version "2.1.12"
+  resolved "https://registry.npmmirror.com/@alemonjs/discord/-/discord-2.1.12.tgz#a64e719772498209f7d132722230d419f440b8e7"
+  integrity sha512-1JbewSoiuYzz141QeDXb4wtxzLA3R/LhATjG7RgsNr2ZPE6LKRyeBLjRgCURx8K1d47cxn/tOrpUfWiAxNNPtA==
   dependencies:
     http-proxy-agent "^7.0.2"
     https-proxy-agent "^7"
 
-"@alemonjs/kook@^2.1.8":
-  version "2.1.8"
-  resolved "https://registry.npmmirror.com/@alemonjs/kook/-/kook-2.1.8.tgz#ac12234ffeb31ae6734d1fe36f1cfdc198d359be"
-  integrity sha512-3fhPB+PEcUwk4bKp7jB27gHvPjtI6UEo21XbQTtk2n9L2iSToqOcfaY48t+MVVo3xTOUeTMp4IgsY2E86MOoYQ==
+"@alemonjs/kook@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.npmmirror.com/@alemonjs/kook/-/kook-2.1.9.tgz#4553afefa04a200b32ceba59db72b6e045ccbf64"
+  integrity sha512-y1F3QrqnWfdfPlurdIB7QaSFEw9N7sg0ZrnGTimBSApNJM75YVgL1snFTRBhvtLRJKz+Va8qgXn9faP6lVQrhw==
 
-"@alemonjs/onebot@^2.1.12":
-  version "2.1.12"
-  resolved "https://registry.npmmirror.com/@alemonjs/onebot/-/onebot-2.1.12.tgz#c64d394e627148658aa557d6464a794ee3e4493a"
-  integrity sha512-UjxM5kW8n7roSoKuqXOFDckf3ySYJP0ZShQr3z5i7ruwstJDeeUx1TjUhdTsTxIml7jo8Zf8Y51vmHLR78zeCw==
+"@alemonjs/onebot@^2.1.13":
+  version "2.1.13"
+  resolved "https://registry.npmmirror.com/@alemonjs/onebot/-/onebot-2.1.13.tgz#702fb68b3eab75346795053baba9086a8e944d5b"
+  integrity sha512-k0aXhT1sjaIZ/bYDLDjW/QOkGo8vG1EonuU5+Q2A291HGEXeyQXnFdFfPZCzKaKn3RIDbmTPLploOfbRgwnmuA==
   dependencies:
     dayjs "^1.11.13"
     ws "^8.18.1"
 
-"@alemonjs/qq-bot@^2.1.12":
-  version "2.1.12"
-  resolved "https://registry.npmmirror.com/@alemonjs/qq-bot/-/qq-bot-2.1.12.tgz#3efa13004df1d5a7fabe5e1e1424a9bd37dc0bd0"
-  integrity sha512-0N41kvrAf02uOdKPNsRcvy0UJb4cCaCSgFqMI3g+LAF7oHRw/jSW6G/2c6FF2wSVBYKqp1IPE/rzguUbjJPBpA==
+"@alemonjs/qq-bot@^2.1.13":
+  version "2.1.13"
+  resolved "https://registry.npmmirror.com/@alemonjs/qq-bot/-/qq-bot-2.1.13.tgz#8793e2c2db8b9003500a8ce79f69975d9b774f56"
+  integrity sha512-12RFpXt/gCgGcmgeVaseELdUw44tejZ0VJmrgn6ugYJgnBXFYpQZnLxa7urFZGVXY4ainpzkx1cLwc6q7BfP+A==
   dependencies:
     "@noble/curves" "^1.7.0"
     axios "^1.4.0"
@@ -936,10 +936,10 @@ ajv@^6.14.0:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-alemonjs@^2.1.49:
-  version "2.1.49"
-  resolved "https://registry.npmmirror.com/alemonjs/-/alemonjs-2.1.49.tgz#ae3c4ca07fc934d2ddd711580225ae88e4fd8e2c"
-  integrity sha512-SBdRCbo8XtWDUsYogfJpKmojZyjR/ykrYP7detWoUyzwqsCNUOaiJowOzTeGZFmtuL0CWOuF+4gaPpJgs1e8iQ==
+alemonjs@^2.1.53:
+  version "2.1.54"
+  resolved "https://registry.npmmirror.com/alemonjs/-/alemonjs-2.1.54.tgz#7d674bb11e6899695e355511bbd328fd58484b4b"
+  integrity sha512-5IruWZ3bvEtg34b0TgtK1+/rKWfy2gOUyuiHovMaj7XjU5KxdQQ2ybYhlI7d+865Cv9Bf8RxwD+oktIuTqgRZQ==
   dependencies:
     "@koa/cors" "^5.0.0"
     axios "^1.14.0"
@@ -3759,6 +3759,11 @@ make-dir@~3.1.0:
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
   dependencies:
     semver "^6.0.0"
+
+markdown-to-jsx@^9.7.13:
+  version "9.7.13"
+  resolved "https://registry.npmmirror.com/markdown-to-jsx/-/markdown-to-jsx-9.7.13.tgz#f23c92d335dbfd09742333f20e18e2eae5e2eb93"
+  integrity sha512-twSoD1A2RMx+wyYTNvHvf4JTzEr4SfkgycoSRwjbezejKhqdIXHrHaA3uEm24ET/ZLWrwSzOyWahmVULC+tTbw==
 
 math-intrinsics@^1.1.0:
   version "1.1.0"

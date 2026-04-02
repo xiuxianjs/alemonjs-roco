@@ -10,5 +10,7 @@ export const routeRules = {
   /** 属性查询 */
   elementSearch: /^(?:!|！|\/|#|＃)(?:roco|洛克)(属性|sx)\s+(.+)$/,
   /** 活动日历 */
-  activeDate: /^(?:!|！|\/|#|＃)(?:roco|洛克)(活动|日历|hdrl)$/
+  activeDate: /^(?:!|！|\/|#|＃)(?:roco|洛克)(活动|日历|hdrl)$/,
+  /** 公告 (可选分类+序号) */
+  announcement: /^(?:!|！|\/|#|＃)(?:roco|洛克)公告(?:\s+(.+))?$/
 } as const;

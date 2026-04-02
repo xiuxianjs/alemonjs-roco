@@ -4,13 +4,13 @@ import { defineRouter, lazy } from 'alemonjs';
 /**
  * 洛克王国宠物图鉴机器人
  *
- * #洛克帮助 / #rk帮助
- * #洛克图鉴 迪莫
- * #洛克宠物 / #洛克宠物 火
- * #洛克技能 闪光冲击 *
+ * #roco帮助 / #rk帮助
+ * #roco图鉴 迪莫
+ * #roco宠物 / #洛克宠物 火
+ * #roco技能 闪光冲击 *
  *
  * --- 预计新增一下功能
- * --- 来源 bilibili wiki
+ * --- 来源 bilibili wiki https://wiki.biligame.com/rocom/%E9%A6%96%E9%A1%B5
  * #roco属性克制
  * #roco阵容搭配
  * #roco任务一览
@@ -48,6 +48,10 @@ export default defineRouter([
       {
         regular: routeRules.activeDate,
         handler: lazy(() => import('@src/response/active'))
+      },
+      {
+        regular: routeRules.announcement,
+        handler: lazy(() => import('@src/response/announcement'))
       }
     ]
   }
