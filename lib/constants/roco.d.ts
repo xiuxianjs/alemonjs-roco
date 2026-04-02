@@ -5,4 +5,5 @@ export declare const routeRules: {
     readonly skillSearch: RegExp;
     readonly elementSearch: RegExp;
     readonly activeDate: RegExp;
+    readonly announcement: RegExp;
 };
